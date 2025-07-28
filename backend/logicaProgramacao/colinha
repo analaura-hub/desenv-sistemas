@@ -1,0 +1,60 @@
+VARIAVEL PARA CONTAS
+soma = a + b 
+subtracao = a - b 
+multiplicacao = a * b 
+divisao = a / b   
+
+PERCORRER NUMEROS COM SETAS
+seta > = maior 
+seta < = menor 
+seta >= "numero maior " [vai contar o numero maior apos 10\exemplo]
+seta <= "numero menor " [vai contar o numero menor apos 10\exemplo]
+
+PARA SALVAR O PROJETO
+clone do git https://github.com/VICK1107/desenv-sistemas
+git config --global nome de usuário "vitoria pineli"
+git config --global user.email "vitoriapineli121@gmail.com"
+git add .
+git commit -m "iniciando projeto"
+git push
+
+CRIAR PASTA
+clica no mouse botao direito dentro da pagina de logica\programacao e clica no nome new file, coloque o nome da sua condicional e da enter 
+
+EXECUTANDO/Terminal
+Terminal: cd. nomr da pasta e table
+enter
+cd . logica table
+ enter 
+python o nome do arquivo 
+enter 
+assim aparece o trabalho executado 
+
+LEMBRANDO OS CODIGOS
+if = condicao 
+int = idade 17
+float salario =555,25
+bool tem carteira = true ou false 
+string nome = "vitoria"
+input = pedir informacao 
+print = mostrar inforacao 
+elif = se nao ou se.....
+
+SALVAR 
+abre a pasta, documentos dentro do desenv 
+clica no botao direito do mouse, mostrar mais opcoes (git bash)
+clone do git https://github.com/VICK1107/desenv-sistemas
+git config --global nome de usuário "vitoria pineli"
+git config --global user.email "vitoriapineli121@gmail.com"
+git add .
+git commit -m "iniciando projeto"
+git push
+
+CODIGO DE LAÇOS
+for(para) 1,2,3,4,5,... percorrer numeros
+while(enquanto) senha
+range - intervalo
+0,1,2,3,4
+1,2,3,4,5
+
+I VARIAVEL D
