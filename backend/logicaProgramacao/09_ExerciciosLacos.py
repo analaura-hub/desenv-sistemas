@@ -8,5 +8,14 @@
 senha_correta = input("configure uma senha")
 senha = input("digite sua senha")
 nome = input("digite seu nome")
-salario = input("digite seu salario")
-salarioanual = salario * 12
+salario = float(input("digite seu salario"))
+while senha != senha_correta:
+    print("senha incorreta")
+    senha =input
+
+print("bem vindo", nome)
+salarioanual= salario *12
+if(salarioanual > 100000):
+    print("rico")
+else:
+    print("faz o L")
