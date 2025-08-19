@@ -12,8 +12,8 @@ seta <= "numero menor " [vai contar o numero menor apos 10\exemplo]
 
 PARA SALVAR O PROJETO
 clone do git https://github.com/VICK1107/desenv-sistemas
-git config --global nome de usuário "vitoria pineli"
-git config --global user.email "vitoriapineli121@gmail.com"
+git config --global nome de usuário "ana laura"
+git config --global user.email "analauradias181@gmail.com"
 git add .
 git commit -m "iniciando projeto"
 git push
@@ -44,8 +44,8 @@ SALVAR
 abre a pasta, documentos dentro do desenv 
 clica no botao direito do mouse, mostrar mais opcoes (git bash)
 clone do git https://github.com/VICK1107/desenv-sistemas
-git config --global nome de usuário "vitoria pineli"
-git config --global user.email "vitoriapineli121@gmail.com"
+git config --global nome de usuário "ana laura"
+git config --global user.email "analauradias181@gmail.com"
 git add .
 git commit -m "iniciando projeto"
 git push
@@ -58,3 +58,12 @@ range - intervalo
 1,2,3,4,5
 
 I VARIAVEL 
+
+nome = "ana"
+nomes = ["ana", "joao", "maria"]
+                0       1         2
+salarios = [1.942.25, 2000.00, 1750.40]
+salario.append(1200.00) (serve para add p registro no final da lista)
+salarios.insert(1, 1700.00) (serve para colocar uma posiçao especifica na lista)
+nomes.remove ("joao")
+nomes.pop( ) ou nomes.pop(1) (remove a posicao informada)

@@ -7,6 +7,8 @@ def media (num1,num2,num3):
     print("media:", media)
 media (3,2,1)
 
+# 2 crie uma função que calcule o imposto anual do seu salario_ 22%
+
 def imposto(salario):
     salarioanual = salario * 12
     print("seu salarioanual e:", salarioanual)
