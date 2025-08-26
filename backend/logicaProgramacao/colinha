@@ -67,3 +67,4 @@ salario.append(1200.00) (serve para add p registro no final da lista)
 salarios.insert(1, 1700.00) (serve para colocar uma posiçao especifica na lista)
 nomes.remove ("joao")
 nomes.pop( ) ou nomes.pop(1) (remove a posicao informada)
+
