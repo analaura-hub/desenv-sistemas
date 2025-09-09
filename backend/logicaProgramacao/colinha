@@ -31,7 +31,7 @@ enter
 assim aparece o trabalho executado 
 
 LEMBRANDO OS CODIGOS
-if = condicao 
+if = condicao (se)
 int = idade 17
 float salario =555,25
 bool tem carteira = true ou false 
@@ -39,7 +39,7 @@ string nome = "vitoria"
 input = pedir informacao 
 print = mostrar inforacao 
 elif = se nao ou se.....
-
+in = na 
 SALVAR 
 abre a pasta, documentos dentro do desenv 
 clica no botao direito do mouse, mostrar mais opcoes (git bash)
@@ -68,3 +68,4 @@ salarios.insert(1, 1700.00) (serve para colocar uma posiçao especifica na lista
 nomes.remove ("joao")
 nomes.pop( ) ou nomes.pop(1) (remove a posicao informada)
 
+ctrl L = esconde e limpa o terminal 
