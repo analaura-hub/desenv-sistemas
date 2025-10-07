@@ -4,5 +4,12 @@
         "quantidade": 10,
         "preco": 1.0,
         "em_estoque": true
+    },
+    {
+        "id": 1,
+        "nome": "pao",
+        "quantidade": 10,
+        "preco": 1.0,
+        "em_estoque": true
     }
 ]
