@@ -1,0 +1,257 @@
+oq e qualidade de softwar? 
+        #RESPOSTA DO PROFESSOR
+performance - velocidade
+usabilidade - o quao facil de usar e o sistema
+manutenibilidade - e facil corrigir os erros?
+confiabilidade - o software funciona corretamente
+
+        #RESPOSTA MINHA
+Qualidade de software é o conjunto de características que determinam o quanto um software atende às necessidades dos usuários e aos requisitos definidos.
+Ela mede o desempenho, a confiabilidade, a facilidade de uso e de manutenção do sistema.
+
+Principais características da qualidade de software:
+
+Performance (Desempenho): mede a velocidade e a eficiência com que o sistema executa suas funções.
+Exemplo: tempo de resposta, consumo de recursos, capacidade de processamento.
+
+Usabilidade: indica o quão fácil e intuitivo é o uso do sistema para o usuário.
+Exemplo: interface simples, navegação clara, feedback ao usuário.
+
+Manutenibilidade: avalia se o software é fácil de corrigir, atualizar e melhorar.
+Exemplo: código bem estruturado e documentado.
+
+Confiabilidade: mostra se o software funciona corretamente, sem falhas, e mantém o desempenho esperado ao longo do tempo.
+Exemplo: poucos erros, estabilidade do sistema.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+o custo do bug - porque testar importa?
+        #RESPOSTA DO PROFESSOR
+
+1996 - erro conversao de dados, prejuizo de U$ 370 milhoes
+1999 - nasa - perdeu uma sonda, prejuizo de U$ 125 milhoes
+1994 - intel - calculo do processador, prejuizo de U$ 475 milhoes 
+
+        #RESPOSTA MINHA 
+Os erros de software (bugs) podem causar grandes prejuízos financeiros, danos à reputação e até riscos à segurança.
+Quanto mais tarde um bug é descoberto, maior é o custo para corrigi-lo.
+Por isso, testar o software desde as fases iniciais do desenvolvimento é fundamental.
+
+ Exemplos reais de falhas e seus custos:
+
+1996 – Ariane 5 (Agência Espacial Europeia):
+Erro de conversão de dados fez o foguete explodir segundos após o lançamento.
+ Prejuízo: cerca de US$ 370 milhões.
+
+1999 – NASA (Mars Climate Orbiter):
+Falha por inconsistência de unidades de medida (libras x newtons) levou à perda da sonda espacial.
+ Prejuízo: cerca de US$ 125 milhões.
+
+1994 – Intel:
+Erro no processador Pentium, que fazia cálculos matemáticos incorretos.
+ Prejuízo: cerca de US$ 475 milhões.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ diferenca Qa X Qc
+          #RESPOSTA DO PROFESSOR
+
+ Qa - Garantia de qualidade
+    foco: processos / previnir defeitos
+
+Qc - controle de qualidade
+    foco: produto / encontrar defeitos
+
+        #RESPOSTA MINHA
+QA – Garantia de Qualidade (Quality Assurance)
+
+Foco: nos processos de desenvolvimento.
+
+Objetivo: prevenir defeitos antes que ocorram.
+
+Como faz isso: definindo padrões, métodos e boas práticas que garantem que o software seja desenvolvido corretamente.
+
+Exemplo: revisões de código, auditorias de processo, definição de políticas de qualidade.
+
+ QC – Controle de Qualidade (Quality Control)
+
+Foco: no produto final.
+
+Objetivo: encontrar defeitos após o desenvolvimento.
+
+Como faz isso: executando testes para verificar se o software atende aos requisitos e funciona corretamente.
+
+Exemplo: testes funcionais, testes automatizados, relatórios de falhas.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        #RESPOSTA DO PROFESSOR
+modelo cascata: requisitos --> analise --> projeto --> codificaçao --> implantaçao 
+
+        #MINHA RESPOSTA
+Requisitos:
+Coleta e documentação das necessidades do cliente.
+Define o que o sistema deve fazer.
+
+Análise:
+Estudo detalhado dos requisitos para criar o modelo lógico do sistema.
+Identifica como o sistema funcionará.
+
+Projeto (Design):
+Planeja a estrutura do sistema, interface, banco de dados e arquitetura.
+Define como o sistema será construído.
+
+Codificação (Implementação):
+Os desenvolvedores transformam o projeto em código.
+O software começa a tomar forma real.
+
+Implantação:
+O sistema é instalado e colocado em operação.
+Inclui testes finais e treinamento de usuários.
+
+(Opcional, mas importante) Manutenção:
+Após a implantação, são feitas correções e melhorias conforme necessário.
+
+Características principais:
+Processo linear e rígido (cada etapa depende da anterior).
+Fácil de entender e gerenciar.
+Pouca flexibilidade para mudanças durante o projeto.
+Ideal para projetos pequenos e bem definidos.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        #RESPOSTA DO PROFESSOR
+modelo V: requisitos --> arquitetura --> projeto --> codigo --> unidade --> teste de aceitaçao --> teste de sistema --> teste de integraçao
+
+        #RESPOSTA MINHA
+O modelo em V é uma variação do modelo cascata que enfatiza a verificação e validação em cada fase do desenvolvimento.
+Ele mostra a relação entre as etapas de construção (lado esquerdo do “V”) e as etapas de teste (lado direito do “V”).
+
+ Etapas do lado esquerdo – Desenvolvimento (Verificação):
+Requisitos:
+Levantamento e especificação do que o sistema deve fazer.
+Serve de base para o teste de aceitação no futuro.
+
+Arquitetura (ou Análise de Sistema):
+Define a estrutura geral do sistema e suas interações.
+Relaciona-se com o teste de sistema.
+
+Projeto (Design Detalhado):
+Define componentes e módulos internos.
+Serve de base para o teste de integração.
+
+Código (Implementação):
+Etapa onde o software é programado a partir dos projetos.
+Conecta o lado esquerdo (planejamento) ao direito (testes).
+
+ Etapas do lado direito – Testes (Validação):
+Teste de Unidade:
+Testa cada módulo ou função individualmente para garantir que funciona corretamente.
+Valida o código.
+
+Teste de Integração:
+Testa a interação entre os módulos para verificar se funcionam juntos.
+Valida o projeto detalhado.
+
+Teste de Sistema:
+Verifica se o sistema completo atende às especificações de arquitetura.
+Valida o sistema como um todo.
+
+Teste de Aceitação:
+Feito pelo cliente/usuário final, valida se o software atende aos requisitos originais.
+É o último teste antes da entrega.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+METODOLOGIAS AGEIS
+        #RESPOSTA DO PROFESSOR
+DAILY: REUNIAO DIARIA (15 MIN)
+SQUAD: TIME DE DESENVOLVEDORES
+SPRINT: PACOTE COM AS IMPLEMENTAÇOES DO PERIODO --> SEMANAL --> QUINZENAL
+
+        #RESPOSTA MINHA 
+As metodologias ágeis são formas de desenvolver software de maneira rápida, flexível e colaborativa, com foco em entregas contínuas e melhoria constante.
+
+ Principais Conceitos:
+Daily (Daily Scrum):
+Reunião diária e rápida (cerca de 15 minutos).
+O time comenta:
+o que fez ontem,
+o que vai fazer hoje,
+e se há algum impedimento.
+Objetivo: manter todos alinhados e identificar problemas cedo.
+
+Squad:
+É o time de desenvolvimento (geralmente multidisciplinar), formado por:
+desenvolvedores,
+testadores,
+analistas,
+e às vezes um Product Owner e um Scrum Master.
+Objetivo: trabalhar de forma autônoma em uma parte do produto.
+
+Sprint:
+É um período de tempo fixo (geralmente semanal ou quinzenal) no qual o squad planeja, desenvolve e entrega um conjunto de funcionalidades.
+Objetivo: entregar valor rapidamente e permitir ajustes no próximo ciclo.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        #RESPOSTA DO PROFESSOR
+hard skills: habilidades tecnicas
+- logica de programaçao
+- conhecimento do negocio
+
+soft skiils
+- pensamentos criticos
+- comunicação clara 
+- atenção nos detalhes 
+- pessimismo construtivo 
+
+Hard Skills (Habilidades Técnicas)
+
+São as habilidades práticas e mensuráveis, geralmente aprendidas por meio de cursos, estudos ou experiência direta.
+ Mostram o que você sabe fazer.
+
+Exemplos:
+Lógica de programação
+Conhecimento do negócio (entender o funcionamento da empresa ou do cliente)
+Uso de ferramentas, linguagens e metodologias (ex: SQL, Java, Scrum etc.)
+Soft Skills (Habilidades Comportamentais)
+São as habilidades pessoais e sociais, ligadas à forma como você se comunica, pensa e trabalha em equipe.
+Mostram como você faz o que sabe fazer.
+
+Exemplos:
+Pensamento crítico – analisar problemas e tomar decisões lógicas
+Comunicação clara – expressar ideias de forma objetiva e eficaz
+Atenção aos detalhes – perceber erros e garantir qualidade
+Pessimismo construtivo – prever possíveis falhas e agir para evitá-las
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ATIVIDADE
+cenario: AIQ FOME 
+- liste 10 coisas que poderiam dar errado no sistema
+
+10 coisas que poderiam dar errado
+
+Erro no cálculo do valor total do pedido
+1 - O sistema soma errado o preço dos itens, frete ou desconto.
+
+Falha na integração com o sistema de pagamento
+2 – O usuário paga, mas o pedido não é registrado (ou o contrário).
+
+Localização incorreta do cliente (GPS)
+3 – O app envia o pedido para o endereço errado.
+
+Restaurantes fora do ar aparecendo como disponíveis
+4 – O usuário faz o pedido e depois descobre que o restaurante estava fechado.
+
+Tempo de entrega calculado incorretamente
+5 – O aplicativo mostra previsão de 30 minutos, mas o entregador só chega depois de 2 horas.
+
+Problemas de comunicação entre cliente, restaurante e entregador
+6 – As atualizações de status (“pedido aceito”, “a caminho”, etc.) não são exibidas corretamente.
+
+Falhas de segurança nos dados do usuário
+7 – Informações pessoais ou de cartão de crédito ficam expostas.
+
+App travando ou fechando sozinho durante o pedido
+8 – O cliente perde o pedido no meio da compra.
+
+Promoções aplicadas incorretamente
+9 – Descontos não são aplicados (ou são aplicados a mais).
+
+Sistema não envia notificação de atualização do pedido
+10 – O cliente não sabe quando o pedido foi aceito ou entregue.
