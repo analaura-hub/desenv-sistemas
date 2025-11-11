@@ -255,3 +255,13 @@ Promoções aplicadas incorretamente
 
 Sistema não envia notificação de atualização do pedido
 10 – O cliente não sabe quando o pedido foi aceito ou entregue.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        tipos de testes
+niveis de testes (unidade, integracao, sistemas)
+tecnicas de testes (caixa,"preta", "branca", "cinza")
+categorias de testes funcionais e nao funcionais
+
+        niveis de testes
+sistema end-to-end --> sistema completo -- 3 da piramide
